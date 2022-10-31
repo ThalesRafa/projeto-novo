@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+	height:100%;
+    overflow-y: hidden;
+    overflow-x:hidden;
+}
+
+/*********
+   @font-face{
+	font-family: "minha fonte";
+		src: url('../fonts/Lobster-Regular.ttf');
+	}/*cadastrar fonte nova baixada 
+**********************/
+header {
+    height:200px;
+    padding:20px 0;
+}
+
+/*************************classe header***********/
+
+.header {
+	
+
+}
+
+.menu{
+	text-align: right;
+	vertical-align: top;
+	float: right;
+	width: 50%;
+	font-size: 20px;
+	position: relative;
+	padding-right: 30px;
+	margin-right: 300;
+	margin-top: 1px;
+	
+}
+
+.menu a {
+	text-align: right;
+	text-decoration: none;
+	font-family: Lobster-Regular;
+	color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu a:hover {
+	color: rgba(220, 220, 220, 0.5);
+	font-size: 18px;
+}
+
+/* classe para o meu menu*/
+
+.logo {
+	
+
+	margin-left: 350px;
+    width:50%;
+
+
+	
+} 
+/* essa é a minha logo*/
+
+section .center {
+ 	height: calc(100% - 200px);
+    position: relative;
+
+}
+
+/*.center {
+	
+	height: calc(100% - 200px);
+ 	position: absolute;
+    bottom:-450px;
+    right:-500px;
+    width: 1200px;
+    height:1200px;
+    border-radius:50%;
+    background-color: #017143;   } */
+
+
+/**************************************center*********************/
+.imagem {
+	position: absolute;
+    bottom:-450px;
+    right:-500px;
+    width: 1200px;
+    height:1200px;
+    border-radius:50%;
+    background-color: #017143;	 
+}
+/**********************************sessao imagem******************/
+.social-media{
+    position: absolute;
+    right: 510px;
+    top:200px;
+}
+
+.social-media img{
+    display: block;
+    width:20px;
+    margin:20px 0;
+}
+/********************************social midia*******************/
+.texto {
+   	display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+.texto span {
+	color: green;
+	font-size: 50px;
+}
+
+
+.texto p{
+    margin-top:100px;
+  	margin:20px 0;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;    
+}
+
+.texto  h1{
+    font-size: 50px;
+}
+
+
+
+.texto button{
+    border:0;
+    background-color: #017143;
+    color:white;
+    border-radius:10px;
+    width:100px;
+    height:30px;
+    cursor: pointer;
+
+}
+/****************************************sessao texto****************************/

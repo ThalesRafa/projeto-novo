@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.center{
+	background-color: #333;
+	margin: 0 auto;
+	padding: 20px;
+	height: 600px;
+	
+}
+
+.center h2{
+	color: #fff;
+	text-align: center;
+	margin-top: 100px;
+	font-variant: small-caps;
+	letter-spacing: 5px;
+	/*font-family: 'Lobster', cursive;*/
+	text-shadow: 4px 4px 4px #aaa;
+	font-family: "minha fonte" 
+	}
+
+@font-face{
+	font-family: "minha fonte";
+		src: url('../fonts/Lobster-Regular.ttf');
+	}/*cadastrar fonte nova baixada */
+
+/*.center:hover {
+	width:300px;
+}*/
+
+.center p {
+	margin-top: 50px;
+	max-width: 400px;
+	margin-left: 100px; 	
+	font-size: 20px;
+	color: white;
+	line-height: 25px;
+}
+
+.center > img {
+	float: left;
+	max-width: 50px;
+	
+}
+/* topo do site*/
+
+
+#menu {
+	width: 900px;
+	text-decoration : none;
+	float: right;
+	
+	margin : 0 30px;
+	display : inline block;
+	text-align: right;
+	padding-left: 40px;
+	padding-bottom : 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	
+}
+
+#menu a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	margin: 0 15px;
+  /* background-color: rgb (200,200,200);*/
+
+	
+}
+
+
+
+#div2 img{
+	max-width: 400px;
+	float: right;
+	background-color: #333;
+	margin-top: -380px;
+	margin-right: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	animation-name: example;
+	animation-duration: 15s;
+	animation-delay: 2s;
+	position: relative;
+	animation-iteration-count: infinite;/* define quantas vezes a animação irá repetir*/
+	animation-direction: reverse;
+
+ 
+  transition: width 2s, height 2s, transform 2s;
+}
+
+#div2 :hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+}
+
+
+@keyframes example {  /* define regras para a animação*/
+  from {background-color: #333;}
+  to {background-color: yellow;}
+  
+  
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+
+}
+
+
+
+
+
+
+
+/*
+
+
+-utilidades
+
+#div1 {animation-timing-function: linear;} mesma velocidade
+#div2 {animation-timing-function: ease;} lento,rapido,lento padrao
+#div3 {animation-timing-function: ease-in;}inicio lento
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+
+img {
+  opacity: 0.5;
+   filter: grayscale(100%);
+}
+
+
+
+
+
+
+
+
+
+responsivo para img
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+
+*/
